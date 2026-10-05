@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "ReelDukan",
+    "slug": "reeldukan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.reeldukan.app",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.reeldukan.app"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "ReelDukan को आपकी तस्वीरें चुनने की अनुमति चाहिए।",
+          "cameraPermission": "ReelDukan को फोटो लेने के लिए कैमरा की अनुमति चाहिए।",
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
